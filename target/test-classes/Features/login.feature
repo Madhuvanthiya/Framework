@@ -2,7 +2,7 @@ Feature: Test Adactin page
 
   Scenario: Test Automation of Adactin Hotel for Booking
     Given User should enter the UserName as "MadhuArun"
-    And User should enter the Password as "Madhuarun88@"
+    And User should enter the Password as "L9J6CK"
     When User click on the Login button
     Then Login should pass
     When user should Select the Location

@@ -14,9 +14,11 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 	        glue= {"org.Step","org.Hooks"},
 	        snippets = SnippetType.CAMELCASE,
 	        monochrome = true,
-	        plugin = {
-	        		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
-	         )
+	        		 plugin = {"pretty","html:reports/myreport.html","json:reports/myreports.json",
+	        					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+	        					},
+	        		 publish = true
+	        		 )
 
 
 public class Login_runner {
