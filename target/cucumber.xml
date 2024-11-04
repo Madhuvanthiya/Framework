@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="50.087" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Test Adactin page" name="Test Automation of Adactin Hotel for Booking" time="49.919">
+<system-out><![CDATA[
+Given User should enter the UserName as "MadhuArun".........................passed
+And User should enter the Password as "Madhuarun88@"........................passed
+When User click on the Login button.........................................passed
+Then Login should pass......................................................passed
+When user should Select the Location........................................passed
+And User Select the Hotel,Room type.........................................passed
+And User Select the Number of Rooms.........................................passed
+And User should Enter the Check In Date.....................................passed
+And User should Enter the Check Out Date....................................passed
+And User Should Select the Adults per Room..................................passed
+And User Should Select the Children per Room................................passed
+When User Click the Search button...........................................passed
+Then Navigate to Select Hotel Page..........................................passed
+When User Click on the Radio button.........................................passed
+And User should Click Continue button.......................................passed
+Then Navigate to Book A Hotel page..........................................passed
+When User Enter the FirstName, LastName, Billing Address,Credit card No.....passed
+And User should Select the Credit card type,Expire Date.....................passed
+And User should enter the CVV Number........................................passed
+Then Click BookNow button...................................................passed
+And User navigate to Booking Confirmation page..............................passed
+And Get the Orderno for booking conformation................................passed
+Then User Click MyItinerary button..........................................passed
+And User Navigate to Select Hotel page......................................passed
+When User select the Ordered checkbox.......................................passed
+Then Click on the CancleSelect button.......................................passed
+And User Click on Logout button to exit the Test............................passed
+]]></system-out>
+</testcase>
+</testsuite>
